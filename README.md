@@ -1,2 +1,0 @@
-# NewTest
-Created with CodeSandbox
