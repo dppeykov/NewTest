@@ -9,7 +9,7 @@ import Jumbotron from "react-bootstrap/Jumbotron";
 function App() {
   return (
     <div className="App">
-      <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+      <Navbar collapseOnSelect expand="lg" bg="primary" variant="light">
         <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
