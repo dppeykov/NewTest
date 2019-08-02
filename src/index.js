@@ -40,7 +40,7 @@ function App() {
           </Nav>
         </Navbar.Collapse>
       </Navbar>
-      <ButtonToolbar className="mt-3">
+      <ButtonToolbar className="mt-3 container">
         <Button variant="primary">Primary</Button>
         <Button variant="secondary">Secondary</Button>
         <Button variant="success">Success</Button>
