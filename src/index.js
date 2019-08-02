@@ -1,10 +1,14 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-import { Navbar, Nav, NavDropdown } from "react-bootstrap";
-import Button from "react-bootstrap/Button";
-import ButtonToolbar from "react-bootstrap/ButtonToolbar";
-import Jumbotron from "react-bootstrap/Jumbotron";
+import {
+  Navbar,
+  Nav,
+  NavDropdown,
+  Button,
+  ButtonToolbar,
+  Jumbotron
+} from "react-bootstrap";
 
 function App() {
   return (
