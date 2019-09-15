@@ -7,8 +7,20 @@ import {
   NavDropdown,
   Button,
   ButtonToolbar,
-  Jumbotron
+  Jumbotron,
+  Alert
 } from "react-bootstrap";
+
+const alerts = [
+  "primary",
+  "secondary",
+  "success",
+  "danger",
+  "warning",
+  "info",
+  "light",
+  "dark"
+];
 
 function App() {
   return (
@@ -51,7 +63,6 @@ function App() {
         <Button variant="dark">Dark</Button>
         <Button variant="link">Link</Button>
       </ButtonToolbar>
-
       <Jumbotron>
         <h1>Hello, world!</h1>
         <p>
@@ -62,6 +73,15 @@ function App() {
           <Button variant="primary">Learn more</Button>
         </p>
       </Jumbotron>
+      <>
+        {alerts.map((variant, idx) => (
+          <Alert key={idx} variant={variant}>
+            This is a {variant} alert with{" "}
+            <Alert.Link href="#">an example link</Alert.Link>. Give it a click
+            if you like.
+          </Alert>
+        ))}
+      </>
     </div>
   );
 }
