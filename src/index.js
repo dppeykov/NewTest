@@ -61,15 +61,15 @@ function App() {
         </Navbar.Collapse>
       </Navbar>
       <ButtonToolbar className="mt-3 container">
-        <Button variant="primary">Primary</Button>
-        <Button variant="secondary">Secondary</Button>
-        <Button variant="success">Success</Button>
-        <Button variant="warning">Warning</Button>
-        <Button variant="danger">Danger</Button>
-        <Button variant="info">Info</Button>
-        <Button variant="light">Light</Button>
-        <Button variant="dark">Dark</Button>
-        <Button variant="link">Link</Button>
+        <Button variant="primary">Primary Buuton</Button>
+        <Button variant="secondary">Secondary Button</Button>
+        <Button variant="success">Success Button</Button>
+        <Button variant="warning">Warning Button</Button>
+        <Button variant="danger">Danger Button</Button>
+        <Button variant="info">Info Button</Button>
+        <Button variant="light">Light Button</Button>
+        <Button variant="dark">Dark Button</Button>
+        <Button variant="link">Link Button</Button>
       </ButtonToolbar>
       <Jumbotron>
         <h1>Hello, world!</h1>
