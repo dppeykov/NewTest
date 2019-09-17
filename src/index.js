@@ -377,7 +377,7 @@ function App() {
           </Form.Row>
 
           <Form.Group id="formGridCheckbox">
-            <Form.Check type="checkbox" label="Check me out" />
+            <Form.Check type="checkbox" label="Check me    hereout" />
           </Form.Group>
 
           <Button variant="primary" type="submit">
