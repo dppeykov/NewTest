@@ -417,4 +417,4 @@ function App() {
 const rootElement = document.getElementById("root");
 ReactDOM.render(<App />, rootElement);
 
-//testing the react bootstrap
+//testing the react bootstrap -->> in the meantime focusing on the python and the dunder methods
